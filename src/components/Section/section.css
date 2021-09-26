@@ -43,12 +43,11 @@ section{
     align-items: center;
     justify-content: center;
     border-radius: 50px;
-    font-weight: bold;
     color:#000000;
     text-decoration:none;
     background-color:#fff;
-    width:150px;
-    height:40px;
+    width:160px;
+    height:45px;
     gap:10px;
     font-size: 13.5px;
     transition:.3s;
