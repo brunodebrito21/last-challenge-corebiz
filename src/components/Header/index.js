@@ -14,7 +14,7 @@ export default function Header(){
             <div >
                 <img src={logo} alt="logo corebiz"></img>
             </div>
-            <button aria-label="button mobile" onClick={handleToggleMenu} id="button-Mobile">
+            <button aria-label="button mobile" onClick={handleToggleMenu} id="btnMobile">
                 <span id="hamburguer"></span>
             </button>
             <nav id="menu">

@@ -36,7 +36,7 @@ nav a:hover{
     color:#7f7f7f;
     border-bottom:6px solid white;
 }
-#button-Mobile{
+#btnMobile{
     display: none;
 }
 @media(max-width:800px){
@@ -76,7 +76,7 @@ nav a:hover{
         color:white;
         background-color: rgba(0, 0, 0, 0.445);
     }
-    #button-Mobile {
+    #btnMobile {
         cursor: pointer;
         position:relative;
         display:block;
