@@ -10,7 +10,7 @@ export default function Section(){
     const [clickedNail,setClickedNail]=useState({})
 
     const url = "https://my-json-server.typicode.com/VitorHugoG/api-dados/dados"
-
+    
     function handleChangeImage(event){
         setClickedNail({
             url :event.target.attributes.url.nodeValue,
@@ -41,10 +41,8 @@ export default function Section(){
     }
     
     useEffect(()=>{
-        handleLoadImages()
-        
+        handleLoadImages() 
     },[isLoaded])
-
 
     return(
         <section>
